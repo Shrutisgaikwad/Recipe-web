@@ -1,0 +1,493 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+#home{
+    background-image: url(./assests/background.jpeg);
+    /* opacity: 0.5; */
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.sticky-nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 5rem;
+    padding-top: 1.5rem;
+    position: sticky;
+    top: 0; 
+    z-index: 10;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    
+} 
+.logo{
+    width: 5%;
+    padding: 2rem;
+    margin-right: 2rem;
+    color:#FD7F20;
+}
+.logo img{ 
+    height: 5rem;
+    width: 10rem;
+    
+   
+}
+.nav-items{
+    width: 50%;
+}
+.nav-items ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+.nav-items ul li a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    font-size: 1.5rem;
+    font-weight:bold;
+    margin-left: 3rem;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.nav-items ul li a:hover{
+    opacity: 1;
+    text-shadow: 1px 1px black;
+    transform: scale(1.1);
+}
+.heading{
+    font-size: 2rem;
+    margin: 7rem 0 0 4rem;
+}
+.line1{
+    font-size: 3rem;
+}
+.line2{
+    margin-left: 10rem; 
+    color:  #FD7F20;
+    
+}
+.line3{
+    font-size: 2rem;
+    margin: 3rem 0 0 4rem;
+}
+.heading p{
+    width: 50%;
+    font-size: 1rem;
+    opacity: 0.8;
+    margin-top: 1rem;
+    text-align: justify;
+
+}
+.heading button{
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 0.7rem 2rem;
+    color: white;
+    background-color: #000;
+    margin-top: 1.5rem;
+    border-radius: 50rem;
+    border-color: #000;
+}
+.heading button:hover{
+    background-color:red;
+    opacity: 1;
+    text-shadow: 1px 1px black;
+    transform: scale(1.1);
+}
+.active1{
+    opacity: 1;
+    text-shadow: 1px 1px black;
+    transform: scale(1.1);
+
+}
+
+/* --------------------------about--------------------------------- */
+#about{
+    background-image: url("./assests/background.jpeg");
+    height: 100vh;
+    background-size: cover;
+
+  
+}
+.about-nav{
+    backdrop-filter: blur(10px);
+    padding-bottom: 2rem;
+  
+}
+.main{
+ 
+    height: 100vh;
+    width: 100%;
+    backdrop-filter: blur(10px);
+}
+.box{
+    width: 70%;
+    height: 70vh; 
+    /* background-color:#fba05a; */
+    background-color: rgba(0,0,0,0.7);
+    border: 3px solid black;
+    margin: 0 0 0 15rem;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.acontent{
+    height: 50%;
+    width: 50%;
+    margin-left: 2rem;
+    color: white;
+}
+.atitle{
+    font-size: 2.5rem;
+    font-weight:bold;
+    margin: -2rem 0 1rem 0;
+}
+.apara{
+    font-size: 1.2rem;
+    margin: 2rem 1rem 0 0;
+    text-align:justify ;
+
+}
+.photo img{
+    height: 34rem;
+    width: 34rem;
+    padding: 1rem;
+}
+button a{
+    text-decoration: none;
+    color: red;
+    
+    
+}
+button {
+    padding: 0.5rem;
+    margin-top: 1.5rem;
+    background-color:white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: red;
+}
+button a:hover{
+    color: white;
+}
+
+/* ------------------------------menu--------------------------- */
+.list ul li button{
+    background-color:rgba(0,0,0,0.7);
+    width: 22rem;
+    height: 9rem;
+    border-radius: 1rem;
+     border-top-right-radius: 5rem;
+    
+    
+}
+.list button a{
+    color:white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.list ul li{
+    list-style: none;
+    padding: 2rem;
+
+}
+.list ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+    padding: 4rem 6rem 0 6rem ;
+    
+}
+.list ul li img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50rem;
+    padding-left: 5rem; 
+}
+.list ul li button:hover{
+    text-shadow: 1px 1px black;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+
+}
+/* ---------------veg------------------ */
+.veg-list{
+    position: sticky;
+    top: 0; 
+    z-index: 10;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+}
+.veg-list ul li button{
+        
+    width: 12rem;
+    height: 4rem;
+    border-radius: 1rem;
+    border-top-right-radius: 2rem;
+    margin-top: -10rem; 
+    
+}
+
+.veg-list ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+    padding: 0 3rem 0 3rem ; 
+    
+}
+.veg-list ul li img{
+    height: 3rem;
+    width: 5rem;
+    border-radius: 50rem;
+    padding-left: 0.7rem; 
+}
+.active{
+        text-shadow: 1px 1px black;
+        transform: scale(1.1);
+        box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+    
+
+}
+/* -------------------------------- */
+
+.menu-items ul li button{
+        
+    width: 15rem;
+    height: 20rem;
+    overflow: auto;
+    /* background-color:rgb(181, 181, 181); */
+    background-color:white;
+    border: 2px solid rgb(83, 82, 82);
+    border-radius: 1rem;
+    margin: 1.6rem;
+}
+.menu-items li{
+    list-style: none;
+
+}
+.menu-items li a{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: black;
+}
+.menu-items ul{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+    padding: 4rem 6rem 0 6rem ;
+    margin: 0 3rem 0 3rem;
+    
+}
+.menu-items ul li img{
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50rem; 
+    padding-left: 0.7rem;
+    padding-bottom: 1rem;
+}
+.menu-items ul li button:hover{
+    text-shadow: 1px 1px black;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+
+}
+
+.footer{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line{
+    width: 90%;
+    height: 50%;
+    border-top: 1px solid rgb(6, 6, 6);
+    opacity: 0.4;
+}
+/*  ------------------------------------recipe-------------------------- */
+/* #about{
+    height: 100vh;
+    background-image: url(bc5.jpeg);
+    background-size: contain;
+    height: 100%;
+    background-attachment: fixed;
+     background-repeat: no-repeat;
+    
+    
+} */
+.recipe-list{
+    background-color: white;
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin: 0 10rem;
+    border-radius: 1rem;
+}
+.recipe-list h1{
+    background-color:rgba(212, 33, 62, 0.865);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    border-radius: 1rem;
+}
+
+.upper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+.upper img{
+    padding: 4rem;
+    height: 25rem;
+    width: 25rem;
+}
+.info b{
+    font-size: 3rem;
+}
+.info{
+    padding: 4rem 4rem 4rem 0;
+    text-align:justify ;
+    line-height: 1.5;
+    font-size:  1.25rem;
+}
+.ingre p{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+
+}
+.instruction p{
+    font-size: 2.5rem;
+    margin: 3rem 0 1rem 0 ;
+}
+.ricons{
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.ricon2{
+    
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+}
+.ricon1{
+    
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+}
+.ricon3{
+    
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* ---------------------------recipe page-------------------------- */
+#recipes-bc{
+    background-image: url(bc5.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+
+ 
+}
+.sticky{
+    position: sticky;
+    top: 0; 
+    z-index: 10;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+}
+
+/* ----------------------------contact -------------------------------------------------------------------------------- */
+.contact-info{
+    color: white;
+    margin: 2rem;
+    width: 50%;
+   
+}
+.contact-info h1{
+    margin: -10rem 0 4rem 0;
+    font-size: 3rem;
+}
+.contact-info p{
+    font-size: 1.5rem;
+    text-align: justify;
+}
+.contact-form{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    margin: 2rem;
+    width: 50%;
+    margin: -10rem 3 1rem 0;
+    padding: 2rem;
+}
+input{
+    width: 90%;
+    height: 2rem;
+    margin: 0.2rem;
+}
+textarea{
+    width: 90%;
+    margin: 0.2rem;
+    height: 5rem;
+
+}
+form button{
+    background-color: red;
+    color: white;
+    margin: 0.2rem;
+    border-radius: 50rem;
+    padding: 0.7rem 1.5rem;
+}
+form button:hover{
+    background-color: white;
+    color: red;
+    text-shadow: 1px 1px black;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+
+}
+.cicon{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    font-weight: 600;
+    
+}
+.cicon:hover{
+    color: red;
+    cursor: pointer;
+}
+.footer{
+    margin-top: 12.5rem;
+}
